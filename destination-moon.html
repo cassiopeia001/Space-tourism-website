@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="src/output.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap" rel="stylesheet">
+  <script defer src="index.js"></script>
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="font-bellefair min-h-screen bg-[url('/assets/destination/background-destination-mobile.jpg')] bg-no-repeat bg-cover md:bg-[url('/assets/destination/background-destination-tablet.jpg')] lg:bg-[url('/assets/destination/background-destination-desktop.jpg')] ">
+  <nav class="flex justify-between items-center mt-5 mx-5 lg:mr-0">
+    <div class="">
+      <a class="cursor-pointer" href="index.html">
+        <img class="w-10 h-10 mr-10" src="assets/shared/logo.svg" alt="logo">
+      </a>
+    </div>
+    <div class="hidden flex-grow border-t border-white/25 opacity-50 z-40 -mr-8 lg:block">
+    </div>
+    <div class="">
+      <button class="md:hidden hover:cursor-pointer">
+        <img id="menu-button" src="assets/shared/icon-hamburger.svg" alt="hamburger menu icon">
+      </button>
+      <div id="menu" class="fixed top-0 right-0 h-screen w-2/3 z-10 bg-[var(--dark-blue)]/10 backdrop-blur-2xl shadow-lg pt-5 px-7 hidden flex-col gap-16 md:flex md:h-auto md:bg-white/5 md:pr-10 md:pl-24 md:pt-7 md:absolute md:w-fit lg:pl-32 lg:static">
+        <button class="w-full flex justify-end md:hidden hover:cursor-pointer">
+          <img id="close-button" src="assets/shared/icon-close.svg" alt="close menu icon">
+        </button>
+        <ul class="text-white tracking-[2px] font-light font-barlow-condensed flex flex-col gap-8 md:flex-row">
+          <li class="w-full "><a href="index.html" class=" w-full flex hover:border-r-4 hover:border-r-gray-400 md:pb-7 md:border-b-4 md:border-b-transparent md:hover:border-b-gray-400  md:hover:border-r-0"><b class="mr-2 font-bold">00</b> HOME</a></li>
+          <li class="w-full"><a href="destination-moon.html" class="w-full flex hover:border-r-4 hover:border-r-gray-400  md:pb-7 md:border-b-4 md:border-b-white md:hover:border-b-gray-400  md:hover:border-r-0"><b class=" mr-2 font-bold">01</b> DESTINATION</a></li>
+          <li class="w-full"><a href="crew-commander.html" class="w-full flex hover:border-r-4 hover:border-r-gray-400  md:pb-7 md:border-b-4 md:border-b-transparent md:hover:border-b-gray-400  md:hover:border-r-0"><b class="mr-2 font-bold">02</b> CREW</a></li>
+          <li class="w-full"><a href="technology-vehicle.html" class="w-full flex hover:border-r-4 hover:border-r-gray-400  md:pb-7 md:border-b-4 md:border-b-transparent md:hover:border-b-gray-400  md:hover:border-r-0"><b class="mr-2 font-bold">03</b> TECHNOLOGY</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="flex flex-col justify-center items-center py-16 px-10 gap-14 md:items-start lg:px-36">
+    <p class="font-barlow-condensed text-base uppercase text-white font-light tracking-widest md:text-xl lg:text-3xl"><span class="text-gray-700 font-bold mr-5">01 </span>Pick your destination</p>
+    <section class="flex flex-col items-center text-center gap-14 md:px-10 lg:px-0 lg:flex-row lg:justify-between lg:text-start">
+      <img id="destination-image" class="w-40 h-40 md:w-80 md:h-80 lg:w-[480px] lg:h-[480px]" src="assets/destination/image-moon.png" alt="moon image">
+      <div class="flex flex-col items-center justify-center gap-8 lg:items-start lg:justify-between">
+        <div id="destinations-container" class="text-[var(--light-blue)] tracking-[2px] font-light font-barlow-condensed flex gap-8">
+          <button id="Moon" class="pb-3 border-b-4 border-b-white hover:cursor-pointer hover:border-b-white hover:text-white">MOON</button>
+          <button id="Mars" class="pb-3 border-b-4 border-b-transparent hover:cursor-pointer hover:border-b-white hover:text-white">MARS</button>
+          <button id="Europa" class="pb-3 border-b-4 border-b-transparent hover:cursor-pointer hover:border-b-white hover:text-white">EUROPA</button>
+          <button id="Titan" class="pb-3 border-b-4 border-b-transparent hover:cursor-pointer hover:border-b-white hover:text-white">TITAN</button>
+        </div>
+        <h1 id="destination-title" class="font-bellefair uppercase text-6xl text-white md:text-7xl">MOON</h1>
+        <p id="description" class="font-barlow text-[var(--light-blue)] text-regular leading-8 lg:text-lg">See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+          regain perspective and come back refreshed. While you’re there, take in some history 
+          by visiting the Luna 2 and Apollo 11 landing sites.</p>
+        <hr class="border-white/25 w-full">
+        <div class="flex flex-col w-4/5 gap-7 md:flex-row md:justify-between">
+          <div class="flex flex-col gap-3">
+            <p class="font-barlow-condensed text-[var(--light-blue)] text-sm uppercase tracking-widest">Avg. distance</p>
+            <h2 id="distance" class="font-bellefair uppercase text-3xl text-white">384,400 km</h2>
+          </div>
+          <div class="flex flex-col gap-3">
+            <p class="font-barlow-condensed text-[var(--light-blue)] text-sm uppercase tracking-widest">Est. travel time</p>
+            <h2 id="travel-time" class="font-bellefair uppercase text-3xl text-white">3 days</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
