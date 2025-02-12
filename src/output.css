@@ -1884,8 +1884,17 @@
   .bg-\[url\(\'\/Space-tourism-website\/assets\/home\/background-home-mobile\.jpg\'\)\] {
     background-image: url('/Space-tourism-website/assets/home/background-home-mobile.jpg');
   }
+  .bg-\[url\(\'https\:\/\/cassiopeia001\.github\.io\/Space-tourism-website\/assets\/crew\/background-crew-desktop\.jpg\'\)\] {
+    background-image: url('https://cassiopeia001.github.io/Space-tourism-website/assets/crew/background-crew-desktop.jpg');
+  }
+  .bg-\[url\(\'https\:\/\/cassiopeia001\.github\.io\/Space-tourism-website\/assets\/destination\/background-destination-mobile\.jpg\'\)\] {
+    background-image: url('https://cassiopeia001.github.io/Space-tourism-website/assets/destination/background-destination-mobile.jpg');
+  }
   .bg-\[url\(\'https\:\/\/cassiopeia001\.github\.io\/Space-tourism-website\/assets\/home\/background-home-mobile\.jpg\'\)\] {
     background-image: url('https://cassiopeia001.github.io/Space-tourism-website/assets/home/background-home-mobile.jpg');
+  }
+  .bg-\[url\(\'https\:\/\/cassiopeia001\.github\.io\/Space-tourism-website\/assets\/technology\/background-technology-mobile\.jpg\'\)\] {
+    background-image: url('https://cassiopeia001.github.io/Space-tourism-website/assets/technology/background-technology-mobile.jpg');
   }
   .bg-none {
     background-image: none;
@@ -3080,9 +3089,19 @@
       background-image: url('/Space-tourism-website/assets/home/background-home-tablet.jpg');
     }
   }
+  .md\:bg-\[url\(\'https\:\/\/cassiopeia001\.github\.io\/Space-tourism-website\/assets\/destination\/background-destination-tablet\.jpg\'\)\] {
+    @media (width >= 48rem) {
+      background-image: url('https://cassiopeia001.github.io/Space-tourism-website/assets/destination/background-destination-tablet.jpg');
+    }
+  }
   .md\:bg-\[url\(\'https\:\/\/cassiopeia001\.github\.io\/Space-tourism-website\/assets\/home\/background-home-tablet\.jpg\'\)\] {
     @media (width >= 48rem) {
       background-image: url('https://cassiopeia001.github.io/Space-tourism-website/assets/home/background-home-tablet.jpg');
+    }
+  }
+  .md\:bg-\[url\(\'https\:\/\/cassiopeia001\.github\.io\/Space-tourism-website\/assets\/technology\/background-technology-tablet\.jpg\'\)\] {
+    @media (width >= 48rem) {
+      background-image: url('https://cassiopeia001.github.io/Space-tourism-website/assets/technology/background-technology-tablet.jpg');
     }
   }
   .md\:px-10 {
@@ -3333,9 +3352,19 @@
       background-image: url('/Space-tourism-website/assets/home/background-home-desktop.jpg');
     }
   }
+  .lg\:bg-\[url\(\'https\:\/\/cassiopeia001\.github\.io\/Space-tourism-website\/assets\/destination\/background-destination-desktop\.jpg\'\)\] {
+    @media (width >= 64rem) {
+      background-image: url('https://cassiopeia001.github.io/Space-tourism-website/assets/destination/background-destination-desktop.jpg');
+    }
+  }
   .lg\:bg-\[url\(\'https\:\/\/cassiopeia001\.github\.io\/Space-tourism-website\/assets\/home\/background-home-desktop\.jpg\'\)\] {
     @media (width >= 64rem) {
       background-image: url('https://cassiopeia001.github.io/Space-tourism-website/assets/home/background-home-desktop.jpg');
+    }
+  }
+  .lg\:bg-\[url\(\'https\:\/\/cassiopeia001\.github\.io\/Space-tourism-website\/assets\/technology\/background-technology-desktop\.jpg\'\)\] {
+    @media (width >= 64rem) {
+      background-image: url('https://cassiopeia001.github.io/Space-tourism-website/assets/technology/background-technology-desktop.jpg');
     }
   }
   .lg\:px-0 {

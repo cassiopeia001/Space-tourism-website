@@ -23,7 +23,7 @@ let techData;
 
 async function fetchData(){
     try {
-        const response= await fetch("/data.json");
+        const response= await fetch("https://cassiopeia001.github.io/Space-tourism-website/data.json");
         jsonData= await response.json();
         destinationData= jsonData.destinations;
         crewData= jsonData.crew;
