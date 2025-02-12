@@ -893,17 +893,11 @@
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
-  .w-2 {
-    width: calc(var(--spacing) * 2);
-  }
   .w-2\/3 {
     width: calc(2/3 * 100%);
   }
   .w-3 {
     width: calc(var(--spacing) * 3);
-  }
-  .w-4 {
-    width: calc(var(--spacing) * 4);
   }
   .w-4\/5 {
     width: calc(4/5 * 100%);
@@ -1793,9 +1787,6 @@
     --tw-border-style: solid;
     border-style: solid;
   }
-  .border-white {
-    border-color: var(--color-white);
-  }
   .border-white\/25 {
     border-color: color-mix(in oklab, var(--color-white) 25%, transparent);
   }
@@ -1822,9 +1813,6 @@
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
-  }
-  .bg-black {
-    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
@@ -1878,23 +1866,11 @@
   .bg-\[url\(\'\.\/assets\/destination\/background-destination-mobile\.jpg\'\)\] {
     background-image: url('./assets/destination/background-destination-mobile.jpg');
   }
-  .bg-\[url\(\'\.\/assets\/home\/background-home-mobile\.jpg\'\)\] {
-    background-image: url('./assets/home/background-home-mobile.jpg');
-  }
   .bg-\[url\(\'\.\/assets\/technology\/background-technology-mobile\.jpg\'\)\] {
     background-image: url('./assets/technology/background-technology-mobile.jpg');
   }
-  .bg-\[url\(\'\/assets\/crew\/background-crew-desktop\.jpg\'\)\] {
-    background-image: url('/assets/crew/background-crew-desktop.jpg');
-  }
-  .bg-\[url\(\'\/assets\/destination\/background-destination-mobile\.jpg\'\)\] {
-    background-image: url('/assets/destination/background-destination-mobile.jpg');
-  }
-  .bg-\[url\(\'\/assets\/home\/background-home-mobile\.jpg\'\)\] {
-    background-image: url('/assets/home/background-home-mobile.jpg');
-  }
-  .bg-\[url\(\'\/assets\/technology\/background-technology-mobile\.jpg\'\)\] {
-    background-image: url('/assets/technology/background-technology-mobile.jpg');
+  .bg-\[url\(\'\/Space-tourism-website\/assets\/home\/background-home-mobile\.jpg\'\)\] {
+    background-image: url('/Space-tourism-website/assets/home/background-home-mobile.jpg');
   }
   .bg-none {
     background-image: none;
@@ -2592,9 +2568,6 @@
     outline-style: var(--tw-outline-style);
     outline-width: 0px;
   }
-  .outline-white {
-    outline-color: var(--color-white);
-  }
   .outline-white\/10 {
     outline-color: color-mix(in oklab, var(--color-white) 10%, transparent);
   }
@@ -3079,29 +3052,14 @@
       background-image: url('./assets/destination/background-destination-tablet.jpg');
     }
   }
-  .md\:bg-\[url\(\'\.\/assets\/home\/background-home-tablet\.jpg\'\)\] {
-    @media (width >= 48rem) {
-      background-image: url('./assets/home/background-home-tablet.jpg');
-    }
-  }
   .md\:bg-\[url\(\'\.\/assets\/technology\/background-technology-tablet\.jpg\'\)\] {
     @media (width >= 48rem) {
       background-image: url('./assets/technology/background-technology-tablet.jpg');
     }
   }
-  .md\:bg-\[url\(\'\/assets\/destination\/background-destination-tablet\.jpg\'\)\] {
+  .md\:bg-\[url\(\'\/Space-tourism-website\/assets\/home\/background-home-tablet\.jpg\'\)\] {
     @media (width >= 48rem) {
-      background-image: url('/assets/destination/background-destination-tablet.jpg');
-    }
-  }
-  .md\:bg-\[url\(\'\/assets\/home\/background-home-tablet\.jpg\'\)\] {
-    @media (width >= 48rem) {
-      background-image: url('/assets/home/background-home-tablet.jpg');
-    }
-  }
-  .md\:bg-\[url\(\'\/assets\/technology\/background-technology-tablet\.jpg\'\)\] {
-    @media (width >= 48rem) {
-      background-image: url('/assets/technology/background-technology-tablet.jpg');
+      background-image: url('/Space-tourism-website/assets/home/background-home-tablet.jpg');
     }
   }
   .md\:px-10 {
@@ -3342,29 +3300,14 @@
       background-image: url('./assets/destination/background-destination-desktop.jpg');
     }
   }
-  .lg\:bg-\[url\(\'\.\/assets\/home\/background-home-desktop\.jpg\'\)\] {
-    @media (width >= 64rem) {
-      background-image: url('./assets/home/background-home-desktop.jpg');
-    }
-  }
   .lg\:bg-\[url\(\'\.\/assets\/technology\/background-technology-desktop\.jpg\'\)\] {
     @media (width >= 64rem) {
       background-image: url('./assets/technology/background-technology-desktop.jpg');
     }
   }
-  .lg\:bg-\[url\(\'\/assets\/destination\/background-destination-desktop\.jpg\'\)\] {
+  .lg\:bg-\[url\(\'\/Space-tourism-website\/assets\/home\/background-home-desktop\.jpg\'\)\] {
     @media (width >= 64rem) {
-      background-image: url('/assets/destination/background-destination-desktop.jpg');
-    }
-  }
-  .lg\:bg-\[url\(\'\/assets\/home\/background-home-desktop\.jpg\'\)\] {
-    @media (width >= 64rem) {
-      background-image: url('/assets/home/background-home-desktop.jpg');
-    }
-  }
-  .lg\:bg-\[url\(\'\/assets\/technology\/background-technology-desktop\.jpg\'\)\] {
-    @media (width >= 64rem) {
-      background-image: url('/assets/technology/background-technology-desktop.jpg');
+      background-image: url('/Space-tourism-website/assets/home/background-home-desktop.jpg');
     }
   }
   .lg\:px-0 {
